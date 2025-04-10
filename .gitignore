@@ -1,0 +1,31 @@
+# Ignore XAMPP-specific and OS files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore environment/config files
+.env
+config.php
+
+# Ignore vendor or dependency folders (if you use Composer or Node later)
+vendor/
+node_modules/
+
+# Ignore database dumps unless you want to track them
+*.sql
+
+# Ignore compiled cache
+cache/
+*.cache
+
+# Ignore system files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore local testing folders
+htdocs/
