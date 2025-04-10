@@ -1,4 +1,4 @@
-# 🌍 Microplastics Ecosystem Database (XAMPP + MySQL)
+# 🌍 Microplastics Ecosystem Database (XAMPP + MySQL + PHP)
 
 This project provides a **local web-based database** for exploring categorized microplastics data across different ecosystems: **marine, freshwater, terrestrial, and airborne**. It was developed using PHP, MySQL, and JavaScript, and is designed for environmental research and visualization.
 
