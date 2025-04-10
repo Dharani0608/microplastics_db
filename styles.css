@@ -1,0 +1,112 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.nav {
+    text-align: center;
+    padding: 10px;
+    background: none;  /* Removed black background */
+}
+
+.nav-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black; /* Ensure title is visible */
+}
+
+/* Navigation Links */
+.nav a {
+    display: inline-block;
+    color: black; /* Set text color */
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background: #ddd;
+    border-radius: 5px;
+}
+
+/* Content Area */
+.content {
+    padding: 20px;
+}
+
+.image-container {
+    width: 100%;
+    text-align: center;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Table Styling */
+.table-container {
+    overflow-x: auto; /* Allows horizontal scrolling */
+    width: 100%;
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: block;
+    overflow-x: auto;  /* Enable horizontal scrolling */
+    white-space: nowrap;  /* Prevent text from breaking */
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .nav-title {
+        font-size: 20px;
+    }
+
+    .nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
